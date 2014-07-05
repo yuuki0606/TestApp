@@ -26,6 +26,10 @@
 		61036E17195577BC0029FD5C /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61036E11195577BC0029FD5C /* FourthViewController.m */; };
 		61036E18195577BC0029FD5C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61036E13195577BC0029FD5C /* SecondViewController.m */; };
 		61036E19195577BC0029FD5C /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61036E15195577BC0029FD5C /* ThirdViewController.m */; };
+		612A60CA1955955300884B1B /* ダンジョン背景-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 612A60C91955955300884B1B /* ダンジョン背景-01.png */; };
+		613F01311955A39D00F2D9DC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 613F01301955A39D00F2D9DC /* Default-568h@2x.png */; };
+		61F4775C1967B4EE00A15976 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61F4775B1967B4EE00A15976 /* Social.framework */; };
+		61F477641967B87800A15976 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61F477631967B87800A15976 /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,10 @@
 		61036E13195577BC0029FD5C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		61036E14195577BC0029FD5C /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		61036E15195577BC0029FD5C /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		612A60C91955955300884B1B /* ダンジョン背景-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ダンジョン背景-01.png"; sourceTree = "<group>"; };
+		613F01301955A39D00F2D9DC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		61F4775B1967B4EE00A15976 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		61F477631967B87800A15976 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F4775C1967B4EE00A15976 /* Social.framework in Frameworks */,
 				61036DD8195577420029FD5C /* CoreGraphics.framework in Frameworks */,
 				61036DDA195577420029FD5C /* UIKit.framework in Frameworks */,
 				61036DD6195577420029FD5C /* Foundation.framework in Frameworks */,
@@ -96,6 +105,8 @@
 		61036DC9195577420029FD5C = {
 			isa = PBXGroup;
 			children = (
+				61F477631967B87800A15976 /* icon@2x.png */,
+				613F01301955A39D00F2D9DC /* Default-568h@2x.png */,
 				61036DDB195577420029FD5C /* You_And_Allegy */,
 				61036DFA195577420029FD5C /* You_And_AllegyTests */,
 				61036DD4195577420029FD5C /* Frameworks */,
@@ -115,6 +126,7 @@
 		61036DD4195577420029FD5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				61F4775B1967B4EE00A15976 /* Social.framework */,
 				61036DD5195577420029FD5C /* Foundation.framework */,
 				61036DD7195577420029FD5C /* CoreGraphics.framework */,
 				61036DD9195577420029FD5C /* UIKit.framework */,
@@ -129,6 +141,7 @@
 				61036DE4195577420029FD5C /* AppDelegate.h */,
 				61036DE5195577420029FD5C /* AppDelegate.m */,
 				61036E0C195577A80029FD5C /* Main.storyboard */,
+				612A60C91955955300884B1B /* ダンジョン背景-01.png */,
 				61036DEA195577420029FD5C /* ViewController.h */,
 				61036DEB195577420029FD5C /* ViewController.m */,
 				61036E0E195577BC0029FD5C /* FifthViewController.h */,
@@ -251,10 +264,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F477641967B87800A15976 /* icon@2x.png in Resources */,
 				61036E0B195577970029FD5C /* 背景.jpg in Resources */,
+				612A60CA1955955300884B1B /* ダンジョン背景-01.png in Resources */,
 				61036DEE195577420029FD5C /* Images.xcassets in Resources */,
 				61036DE0195577420029FD5C /* InfoPlist.strings in Resources */,
 				61036E0D195577A80029FD5C /* Main.storyboard in Resources */,
+				613F01311955A39D00F2D9DC /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,8 +410,6 @@
 		61036E05195577420029FD5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "You_And_Allegy/You_And_Allegy-Prefix.pch";
 				INFOPLIST_FILE = "You_And_Allegy/You_And_Allegy-Info.plist";
@@ -407,8 +421,6 @@
 		61036E06195577420029FD5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "You_And_Allegy/You_And_Allegy-Prefix.pch";
 				INFOPLIST_FILE = "You_And_Allegy/You_And_Allegy-Info.plist";
@@ -476,6 +488,7 @@
 				61036E06195577420029FD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		61036E07195577420029FD5C /* Build configuration list for PBXNativeTarget "You_And_AllegyTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +497,7 @@
 				61036E09195577420029FD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
