@@ -7,6 +7,7 @@
 //
 
 #import "ThirdViewController.h"
+#import "DrawView.h"
 
 @interface ThirdViewController ()
 
@@ -27,6 +28,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    DrawView *drawView =[[DrawView alloc] initWithFrame:CGRectMake(0, 0, self.view.bounds.size.width,self.view.bounds.size.height)];
+    [self.view addSubview:drawView];
+    [drawView setNeedsDisplay];
 }
 
 - (void)didReceiveMemoryWarning
